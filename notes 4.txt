@@ -1,0 +1,1310 @@
+What is HTML 
+Why we use HTML
+
+HTML -> Hypertext Markup Language
+
+Hypertext -> which connects from one page to another in the form of link
+             hyperlink
+
+markup language -> <></>
+
+Use of HTML to display User Interface to the User
+-> content
+-> information
+-> feedback form
+
+HTML is using web or Internet
+Where the HTML is displayed -> browser
+
+HTML is a static language
+
+.html .htm
+
+client -> client always send the request to the server
+server  -> server is bound to handle your request and give you the response
+    response -> positive or negative
+
+
+HTML
+
+1) HTML is not casesensitive language
+2) The tags comes with the two pairs
+    <> </> -> full tag <html>  </html>
+3) There should be proper nesting of the tags
+    outermost should be closed at the end
+     innermost will be closed first
+4)  empty tags 
+<img />
+<br />
+<hr/>
+
+  <html>
+    <head>
+     
+   </html>
+ </head>
+
+xhtml -> XML extended markup language
+
+xhtml 4.2
+
+WHATWG -> The Web Hypertext Application Technology Working Group
+           opera,firefox and opensource community
+
+HTML5
+
+1) reduce the size of the doctype
+2) <> </>
+3) head and body tag  are optional
+4) closing the empty tag is optional
+5) they have introduced the semantic elements
+are block level elements
+ div -> division
+div -> block level
+h1 to h6 -> block level
+All semantic elements are block level
+header,nav,footer,section,article,aside,main etc block level elements
+So block level elements acquire 100% of the width
+inline level takes that much of width is required 
+ inline levels works horizontally img,a,br
+<b> </b>
+<i> </i>
+
+<strong> </strong>
+<em> </em>
+
+if any custom attribute we want so we can generate custom attribute or
+write custom attribute using data-*
+
+Lists
+
+Order List types 1|a|A|i|I
+Unordered List type disc,circle,square
+Definition List
+*****************************************************************************
+
+In old HTML there was only two techniques to create the layouts 
+1) div -> proficent in css
+2) tables are no longer used for layouts instead we use table for data display
+
+MIMES -> Multipurpose Internet Mail Extensions
+*********************************************************************************
+
+CSS stands for cascading style sheet
+
+css is used to design the webpage and to give a physical structure to the logical
+layout.
+css can be used in three ways
+1) external css -> filename.css
+2) internal css -> .html -> head -> <style> </style>
+3) inline css -> .html -> element -> style attribute
+
+syntax of using css
+
+selector{
+property:value;
+property:value;
+
+
+}
+
+types of selectors
+
+element selector
+p{
+
+}
+
+universal selector 
+*{}
+
+Id selector 
+<p id="demo"> Sample para </p>
+
+#demo {
+
+}
+
+class selector 
+<p class="sample"> Sample para </p>
+
+.sample{}
+
+group selectors
+
+div,p,.sample{}
+
+descandant selector
+
+direct child selector >
+
+attribute selector []
+
+Adjacet sibling selector +
+
+General Sibling Selector ~
+
+pseudo class selectors
+
+:link
+:visited
+:hover
+:active
+
+:before
+:after
+:focus
+:required
+:checked
+:disabled
+:first-child
+:last-child
+:nth-child(1n)
+:only-child
+:nth-last-child(?)
+
+**********************************************************************************
+CSS Cascading rule
+CSS Specificity rule
+!important
+**********************************************************************************
+
+http and https
+
+http -> Hyper text transfer protocol
+http helps us to access the web pages over the internet or intranet.
+http uses a port number that is 80
+http helps the browser to access the web pages
+http protocol is a text based protocol
+http/https both are stateless protocol because these protocols are 
+lightweight protocols
+http protocol is not a secure protocol
+
+******************************************************************************
+
+HTTPS  -> Secure -> SSL -> Secure Socket Layer, TLS -> Transport Layer Security
+hypertext transfer Protocol Secure
+Https uses 443 as the default port number
+https follows the process of handshaking when this process is completed
+then only communication takes place.
+https is slower as compared to the http because of ssl process
+HTTPS uses asymmetric encryption
+public key
+private key
+certificate
+
+*************************************************************************************
+css box Model (css version 2)
+
+totalWidth = width + padding-left + padding-right + border-left + border-right
+
+totalHeight = height + padding-top + padding-bottom + border-top + border-bottom
+
+CSS Box Model (CSS Version 3)
+box-sizing:content-box/border-box
+************************************************************************************
+
+Block Level Element by default acquires 100% of the width
+Block element follows from top to bottom
+
+Inline level element uses that much width which is required only
+Inline level element flows from left to right
+
+
+To change the behaviour of these we can use css display property
+
+display:none/block/inline/inline-block
+
+display:none
+and
+visibility:hidden
+
+********************************************************************************
+CSS Measurement
+1) percentage 90%
+2) pixels 900px
+3) em 1em = 16px
+4) rem 1rem = 16px root level element html
+************************************************************************************
+
+HTML5 localStorage and SessionStorage
+
+localStorage and SessionStorage is a storage which stores data inside the browser
+and this comes from HTML5 WEBAPI.
+To use localStorage and SessionStorage we require javascript
+LocalStorage can store data permanently inside the browser until and unless we will
+not delete the data it will not be deleted
+Both LocalStorage and Sessionstorage stores data in the form of key and value 
+Both have capacity of storing upto 5MB 
+SessionStorage can store data until that session only
+they use setItem method of there Web API to store the data
+*******************************************************************************
+
+Grid Based Layout
+
+1) Grid Based Layout is 2 dimensional layout (rows and columns)
+2) Grid based layout requires grid container and grid items
+
+*********************************************************************************
+
+CSS Positions
+1) static is the default position
+2)relative position is used by the element's current position and it will leave
+   the gap
+3)absolute relative to its parent position and will not leave a gap
+4)fixed
+5) sticky
+
+**********************************************************************************
+WebSockets
+
+WebSocket Server
+WebSocket Client
+
+1)WebSockets are used when we require realtime chat based applications then client 
+and server are continuoulsy are connected with each other.
+2)Intially websocket client establish the connection with the websocket server using
+the http ot https protocol after that the protocol will be upgraded to ws/ wss
+(web socket or web socket secure) protocol which enables the client and server
+to be in continuous connection with each other until and unless either client drop
+or there is a error at web server end.
+3) IN HTML5 we have websocket client API class or function named as WebSocket
+
+localhost name for your loopback address
+
+********************************************************************************
+Drag and Drop
+******************************************************************************
+
+SEO 
+1) meta tags
+2) microformats
+3) microdata
+
+vw -> viewportwidth
+vh -> viewportheight
+
+Flex 
+*********************************************************************************
+
+Responsive Web Design
+
+media queries
+
+@media mediatype and (min-width) and (max-width){
+  selector {
+
+   }
+}
+
+mediatypes
+
+all -> all devices -> default
+print -> print devices
+screen -> screen devices
+speech -> 
+
+******************************************************************************
+
+SASS -> Stntatically Awesome StyleSheet
+-> preprocessor for the css
+-> sass has two standards
+  .scss  -> selector {property:value}
+  .sass  -> indentation
+SASS is dynamic to CSS
+SASS behaves like a programming language to the css
+
+
+SASS Can have
+
+nav{
+
+}
+
+nav ul {
+
+}
+#top-bar ul li{
+  display: inline-block;
+  margin: 5px;
+}
+#top-bar a{
+  color: #fff;
+  font-size: 20px;
+}
+#top-bar a:hover{
+  color: $main-color;
+}
+
+
+#top-bar{
+ ul li {
+    display:inline-block;
+     margin:5px;
+  }
+  a{
+    color: #fff;
+  font-size: 20px;
+  &:hover{
+    color: $main-color;
+  }
+ }
+}
+
+******************************************************************************
+
+Difference between html and xml
+
+1) html file has an extension of .htm or .html whereas xml file
+   has an extension of .xml
+
+2) html tags are predefined tags whereas xml tags are user defined
+
+3) html is not case sensitive but xml is case sensitive
+
+4) html is used to design the web pages but xml is used to define the data
+
+***********************************************************************************
+
+What is JavaScript
+
+JavaScript is a client side scripting language.
+
+What is the difference between scripting language and programming language
+
+.java -> .class->(Intermediate format which is known as Intermediate language)
+      -> JRE -> byte codes(0 and 1)
+
+.js,.php,.py,.perl -> compile -> byte code (0 and 1)
+
+Features of JavaScript
+
+1) JavaScript is a caseSensitive language (a A) both are different
+2) Javascript is a client side scripting which runs on the browser
+3) JavaScript follows camelCasing/Pascal Casing 
+    parseInt() -> camelcasing
+    Parseint() -> pascalcasing
+
+4) JavaScript was  developed by netscape Navigator Mocha / liveScript/ JavaScript
+
+ECMA -> EuropeanManufacturerAssociation -> ECMA Script
+ECMA Script / Vanilla JS 
+2009 -> Angular Js / MVC /Google
+
+M -Model -> Data Store
+V - View -> UI user Interface of the Application
+C - Controller -> Business Logic of the Application
+
+ECMA -> improve JavaScript
+
+ES6 ES-2015
+ES7 Es-2016 so on Modern JavaScript
+
+5) JavaScript is a dynamic and loosely typed language
+
+    java -> strongly typed language and static concept
+     int x = 10;
+       x = 'abc';// error
+       x = 20;
+
+    var x = 10;
+       x = 'abc';
+
+var -> keyword
+x  variableName
+= operator
+10 value
+; statetment Terminator
+
+
+
+6) JavaScript can be written in two ways
+
+    external JavaScript(external JS) .js
+
+7) Internal JS
+    .html -> <script></script>
+     head
+     body
+     we can put multiple script tags
+
+    <head> when we are creating the Event Handlers
+    <script>
+    </script>
+
+     <script>
+
+     </script>
+
+   </head>
+
+  <body>
+
+    // html
+
+   <script>
+   </script>
+  </body>
+
+8) Every Statetment should ends with semicolon optional last statetment
+
+  // 
+  // 
+  // 
+
+Why JavaScript was Developed
+
+  9) JavaScript can switch off 
+    <script>
+    </script>
+
+    <noscript>
+    </noscript>
+
+10) JavaScript commenting System
+
+    single line comment  //
+    Multiline Comment  /*  */
+
+11) JavaScript ignores the whitespace and line breaks
+
+
+  
+12) JavaScript Data Types
+
+    a) Primitive Types
+    b) Refrence Types
+
+     Number var x = 10;
+     String  var name = 'varun';
+     Boolean  var flag = true;
+     undefined var x;
+     Null  var x = null; Object 
+
+     typeof, typeof(x); object
+     Symbol
+
+
+***********************************************************************************
+
+What is variable in JavaScript?
+
+ Variables is a temporary storage where we can store the values.
+There are two types of variables
+  1) Global Variable
+  2) Local Variable
+
+What are the ways we can declare the variables
+  var -> does not follows the block scope it is for functional scope
+  let -> follows the block scope
+  const -> follows the block scope but we have to intiliaze the value and the value
+           is constant which we cannot change
+
+diff between var and let
+ var does not follows the block whereas let follows the block scope
+ In var we can redeclare the same variable but in let we cannot redeclare the 
+  same variable
+
+***********************************************************************************
+
+difference between let and const
+
+let x;
+x = undefined
+
+let x = 10;
+x = 'abc';
+
+const PI = 3.14;
+PI = 10;
+**********************************************************************************
+
+variable Naming Conventions 
+
+1) variable should always starts with character,_ or $ followed by characters,numbers or 
+   $
+
+2) Variable cannot starts with a number
+3) variabe should not contain any special characters
+4) variable name should not contain any spaces
+5) To add the spaces we can use _ or we can follow camel casing
+    example first_name, firstName
+6) variable name must be a meaningful name
+
+*************************************************************************************
+
+Operators In JavaScript
+
+1) Airthmetic operator +,-,*,/,%,() -> BODMAS
+
+/ division = quotient 10 /2 = 5
+% Modulus Operator = reminder 10 % 2 = 0
+
+ (10 + 10) * 2 = 40
+
+2) assignment operator -> =
+
+3) comparison operator  ->  ==
+4) Relational Operator -> <,>,<=,>=,!=
+5) Logical Operator -> !, && , ||
+6) Identity operator -> ===
+
+
+   var x = 10;
+   var y = '10';
+
+    if(x == y){} // true Implicit Data type conversion
+
+     if(x === y){} // false
+
+
+       and &&
+
+     true  true = true
+     true false = false
+     false true = false
+     false false = false
+
+
+     or ||
+
+     true true = true
+     true false = true
+     false true = true
+     false false = false
+
+
+       !
+     something true is false
+
+       x = 10
+
+       if( !x > 5){} false
+
+7) Increment Operator / Decrement Operator
+
+    PreIncrement / Pre Decrement
+    Post Increment / PostDecrement
+  
+     let x = 10;
+      let y = ++x;
+
+      y?
+      x?
+
+PreIncrement First increment the value then transfer the vaue
+
+  let x = 10;
+  let y = x++;
+  x? 11
+  y? 10
+
+PostIncrement -> First transfer the value then increment the value
+
+
+8) Terinary Operator or Shorthand of If and else
+   (condition) ? true : false
+
+9) Concanation Operator -> +
+
+   number + number = number
+   number + string = string
+   string + number = string
+   string + string = string
+
+   == convert string into a number but it is not convertible then it will 
+       return NaN -> Not a Number and to check NaN we use isNaN
+
+
+10) Es6 Template Literal
+
+***********************************************************************************
+
+Conditional Statetment 
+
+1) if(condition){ // block}
+
+2) if(condition) {
+
+  }
+
+  else { -> optional
+
+ }
+
+3) if(condition){}
+   else if(condition){}
+   else if(condition){}
+    else {} -> optional
+
+4) If we want multiple conditions to club together then we can use logical operator
+
+    if((condition) && (condition)){}
+
+     if((condition) || (condition)){
+        
+        if(condition){}
+         else {}
+
+       }
+
+  else {}
+
+*******************************************************************************
+
+switch case
+
+
+switch(condition){
+ case '1':
+ //
+  break;
+
+case '2':
+ //
+ break;
+
+default: -> else and it is optional
+
+}
+
+********************************************************************************
+
+Loops
+
+Loops are a set of instructions which helps to repeat a set of code during a 
+particular time till the condition evaluates to true.
+
+There are 3 Generic Loops and 2 loops which are part of javascript
+
+1) while loop is used when we don't know the exact repetations -> when retriving 
+              records from the database
+2) do while loop is used when we want to run the loop atleast once
+                  irrespective of the condition evaluates to true or false
+3) for loop  is used when we know the exact number of repetations 
+
+4) for of loop  when we want to loop through an array
+
+5) for in loop when we want to loop through an object
+
+**********************************************************************************
+
+break is used when we want to stop the execution of the loop and come out of the loop.
+
+continue skip the part of the iteration and move to the next iteration
+
+***********************************************************************************
+
+Pop up Windows
+
+1) alert()
+2) prompt() will take input from the user but that input will always be treated as 
+             a string
+3) confirm() taking the approval from the user using the boolean values 
+
+
+Important JavaScript Methods
+
+ parseInt() -> try to convert string into the number and if it is not able to convert
+                then it will return NaN and to check NaN
+parseFloat() -> try to convert string into float and the same thing above
+toFixed() -> can round of the value upto the decimal places user will define but 
+              while displaying the output it will convert into string
+isNaN()
+
+
+var total = 200.34572
+     let amount = total.toFixed(2);
+   amount // string
+
+******************************************************************************
+
+Differnce between Primitive Types and Refrence Types
+
+Primitive types stores the variables on stack with their associate values
+whereas Refrence types stores the variables on stack only bu the values are stored
+ on the heap memory
+
+*********************************************************************************
+
+Arrays
+ 
+Arrays is used when we want to store multiple values in a single variable.
+Arrays are of reference types and is not of primitive type
+Arrays stores the values according to the index and the index starts from 0
+JavaScript array is dynamic 
+symbol of an array is []
+and in terms of class constructor function is Array()
+
+How to declare an array in js
+
+1) declaring an empty array
+    const arr = new Array()
+    const arr = [] 
+
+2) declaring an array with the length
+
+    const arr = new Array(5) 0 to 4
+     last index = total length of an array - 1
+
+    arr[0] =10;  
+    arr[1] = 20;
+    and so on
+
+3) const arr = [5];
+arr[0] // 5
+
+4) const arr = new Array(10,20,30,40);
+   const arr = [10,20,30,40];
+******************************************************************************
+
+Accessing the particular element of an array
+
+ array[index];
+
+How to access the array using the loop
+1) for loop
+2) for of loop
+3) for in loop 
+
+Important Array Methods
+
+1) push() -> will add ana element at the end of an array
+2) pop() -> will remove the last element from an array
+  push + pop -> LIFO = Last In first out
+
+3)unshift()-> add an element at the begning of an array
+4) shift() -> will remove the element from the begning of an array
+
+  FIFO = push + shift
+
+5) join() will convert an array into a string provided we can specify the seprator
+  by default ,
+
+6) toString() will also convert an array into a string but we can't specify the 
+    seprator default is ,
+
+**********************************************************************************
+
+cloning an array
+
+copying something
+
+1) vaniila Js using slice method
+2) vanilla Js using concat method
+3) Es6 spread / Rest operator ...
+
+
+sorting an array
+sort() -> It works perfectly on strings but on numbers we need to pass an callback 
+function to work perfectly.
+
+*******************************************************************************
+
+
+strings are also treated as an array
+
+string are also stored as an character array
+
+string important Methods
+
+toUpperCase()
+toLowerCase()
+slice()
+substr()
+trim()
+substring()
+
+*****************************************************************************
+
+Functions 
+
+functions is a block of code which executes a piece of code whenever we call the 
+function.
+
+A function always returns a value.
+
+A function can or cannot accept the parameters 
+The variables which are declared inside the function are known as local variables
+A function can be nested inside another function.
+The nested function is known as inner function and the function which encloses
+nested function is known as outer function.
+Naming of function is the same as of variables
+A function with the same name will override the last one
+Types of functions
+-> Named functions
+-> Annonymous function
+-> Es6 Fat Arrow or lambda function
+-> callback function
+-> Constructor Function
+-> IFFI function
+
+A function is treated as a firstClass function
+
+syntax of function 
+-> create the function
+-> calling the function
+
+  function name_of_function(variable -> paramters){
+    // block of code
+     variable -> local variable
+
+  }
+
+undefined + number = NaN
+number + undefined = NaN
+undefined + undefined = NaN
+number + number = number
+
+*********************************************************************
+
+Annonymous functions
+
+A function without a name is known as Annonymous function
+
+function demo(){
+  console.log('Hello World');
+}
+
+const demo = function(){
+ console.log('Hello World');
+}
+
+demo();
+
+********************************************************************************
+
+use of return statetment
+
+1) It will stop the execution of the function immediately.
+2) If any output is there it will pass the output to the function name
+
+**********************************************************************************
+
+Es6 Fat Arrow function  ES6/ES2015
+In Fat arrow function the value of this keyword will never change 
+
+IN JS this -> current Object
+this -> very fragile keyword which keeps on changing according to the context whenever
+the context changes.
+***********************************************************************************
+
+Callback function
+
+A function which is passed as an argument to a function is known as callback function.
+
+multithreaded process - where multiple task can be performed simultaneously
+single threaded -> where after completing the one process the process will do the
+next task.
+
+JavaScript -> Single threaded 
+
+AJAX -> 
+
+**********************************************************************************
+
+function with variable Parmaters
+
+1) Vaniila Js -> arguments array
+2) Es6 using -> Rest Operators
+**********************************************************************************
+
+Lexical Scope 
+
+1) A function can have another function as a inner function
+2) inner function have the access to the outer function variables and properties
+3) But the outer function does not have access to the inner function variables and 
+    properties.
+
+4) The variables which are declared outside of the function are called as global
+   variables and those variables can be access inside the function
+
+5) If the global variable and local variable have the same name in that case 
+   the local variable will overide the global variable.
+
+*********************************************************************************
+
+Closures
+
+
+*******************************************************************************
+
+DOM -> Document Object Model
+
+With the help of DOM we can navigate down the tree of HTML elements
+documentNode
+element Node
+Comment Node 
+Text Node
+
+Attributes are not part of DOM attributes are handled seprately
+
+How to access the DOM nodes
+
+1) document.getElementById('demo');
+2) document.getElementsByTagName();
+3) document.getElementsByClassName();
+4) document.getElementsByName();
+5) document.querySelector('#demo');
+6) document.querySelectorAll('.example');
+
+
+If the element is not any form control
+
+document.getElementById('id').innerHTML = '';
+
+document.getElementById('id').textContent = '';
+
+************************************************************************************
+
+Event and Event Handlers
+
+onclick     functions
+onchange
+ondbclick
+onfocus
+onblur
+oninput
+onsubmit
+onmouseover
+onmouseenter
+onmouseleave
+onmouseout
+onkeypress
+onkeydown
+onkeyup
+onload
+
+
+How to work with attributes
+
+setAttribute('attributeName',value)
+getAttribute('attributeName')
+removeAttribute('removeAttribute')
+
+***********************************************************************
+
+Objects
+
+Object is a physical entity who does have existence
+Class is a logical entity or a blue print for a Object
+Object Pardign 
+Object Oriented Programming System(OOPS)
+
+1) Encapsulation -> Wrapping up the data as a single unit
+2) Abstraction -> Hiding the irrelevant Data
+3) Inheritance -> creating parent and child relationship
+4) Polymorphism -> Many forms
+
+JavaScript is based on Object but it is not complete based on OOPS
+
+Object has two important features
+
+1) properties -> variables -> class Variables
+ 2) Methods -> Functions -> class functions
+
+How to create an Object in JavaScript
+
+1) Object Constructor
+2) Object Literal Syntax
+3) using Functions
+4) using Constructor Functions
+5) ES6 Class based syntax(Syntatic Sugar Syntax)
+
+
+**********************************************************************************
+
+JavaScript is single threaded programming language.
+
+Synchronous -> one after another
+Asynchronous -> parallel
+
+To achieve parallel behaviour or asynchronous behaviour what techniques can be applied
+in JavaScript
+
+1) Callback functions
+2) Promise API -> JavaScript API -> angularJs
+3) async and await
+4) Observables -> RxJs v-> Angular
+
+callback Hell or christmas tree
+
+
+Promise is javascript class or constructor function which holds the result of 
+asynchronous operation.
+Promise gives the promise that i will give you the response of asynchronous operation
+To use Promise from scratch we need to follow two step process
+1) create the promise
+2) consume the promise
+
+When we create the promise by creating object of the Promise constructor function
+this constructor function will take another callback function and that callback function
+will take two parameters which act like a function they are resolve and reject
+If promise gives successful response then resolve will hold the result
+and if promise gives an error then reject will hold the error
+
+When we consume the promise in that case if it is successful 
+then method is called and if error is there catch method is called
+**********************************************************************************
+
+Jquery 
+
+What is Jquery
+Why we use Jquery
+
+Jquery is a JavaScript Library which helps us to manipulate the DOM easily 
+and efficiently
+
+Jquery is an open source Project
+
+Jquery is developed or started by a person John Resig
+Jquery helps to manipulate the DOM
+Jquery motto is right less and do more
+Jquery comes with two flavours
+ -> development version -> jquery.js
+ -> production version  -> jquery.min.js
+
+Jquery library has three versions
+1) Jquery Core
+2) Jquery UI
+3) Jquery Mobile
+
+In Jquery UI and Jquery Mobile the core is the backbone
+
+Jquery symbol is $
+
+How to include Jquery inside your Project
+
+-> CDN -> content Delivery Network
+-> Downloading the files
+-> using a pacakage Manager like npm
+
+How to Work with Jquery
+
+1) Select the element
+2) perform the action
+
+Jquery is a library which is cross platform
+Jquery supports all the CSS selectors
+
+
+********************************************************************************
+
+Shrotuct of $(document).ready(function(){})
+ $(function(){})
+
+***********************************************************************************
+We are not using only Jquery in our project alongside we are using other 
+libraries also and those also have $ in their syntax
+
+1)$ is a shortcut of a global function which is also known as factory function
+which starts the jquery and the function name is jQuery()
+2) change the symbol of $ into something else using a function called 
+jQuery.noConflict()
+
+Holding the ready Event
+
+$(function(){})
+
+************************************************************************************
+
+selecting the elements
+
+:animated -> select all the elements that are being animated
+:eq(n) -> select the elements at nth rule (zero based index)
+:even
+:odd
+:first
+:last
+:gt(n)
+:lt(n)
+:text select all text elements (input type="text")
+:button select all buttons
+:checkbox
+:file
+:header from h1 to h6
+:hidden
+:image
+:input 
+:parent 
+:password
+:radio
+:reset
+:selected
+:submit
+:visible
+
+************************************************************************************
+
+Narrowing Down the selection and narrowing down the selection
+with a context
+
+Creating a Jquery Object from the DOM Object
+
+Treating jquery object as an array
+
+Jquery method chaining -> Fluent API
+
+$(selction).callMethod().callMethod().callMethod();
+
+*********************************************************************************
+each()
+
+Managing the Element Selection
+
+Expand the selection -> add
+Reduce the selection -> first,last,eq
+Reduce the selection to a range -> slice
+Reduce the selection by applying a filter -> filter
+Reduce the selection based on the descandant of the selected elements -> has 
+
+Expanding the selection -> add method
+
+Narrowing down the selection
+
+1)eq()
+2) first()
+3) last()
+4) filter()
+5) not()
+6) slice(start,end)
+
+How to reduce the selection based on the descandant 
+7) has()
+
+
+$('label').first().css('border','1px solid blue');
+**********************************************************************************
+Navigating the DOM
+
+1) Navigating the DOM towards downwards -> children,find
+2) Navgiating the DOM towards upwards the hireachy
+   
+    parent() this will select the parent element
+    parents() this will select the ansector element
+    closest(selector) -> select the nearest ancestor for each element
+                         in the jquery object that intersects with the 
+                          specified selector.
+    parentsUntil(selector)
+
+Navigating Across the Hireachy
+
+next()
+next(selector)
+nextAll()
+nextAll(selctor)
+nextUntil(selector)
+
+prev()
+prevAll()
+prevAll(selector)
+prevUntil(selector)
+
+siblings()
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+  
+
+
+    
+
+
+
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
